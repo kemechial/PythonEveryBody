@@ -4,3 +4,6 @@ new_dict["test"]=5
 dict2["car"]="bmw"
 print dict2
 print new_dict
+new_dict["test"]+=1
+print new_dict
+print "ship" in dict2
