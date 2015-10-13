@@ -7,3 +7,10 @@ print new_dict
 new_dict["test"]+=1
 print new_dict
 print "ship" in dict2
+print dict2.get("rolls royce","not found")
+print dict2.get("rolls royce",0)
+#same as
+if "rolls royce" in dict2:
+    print dict2["rolls royce"]    
+else:
+    print "not found"
