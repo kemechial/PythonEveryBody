@@ -11,6 +11,6 @@ print dict2.get("rolls royce","not found")
 print dict2.get("rolls royce",0)
 #same as
 if "rolls royce" in dict2:
-    print dict2["rolls royce"]    
+    print dict2["rolls royce"]
 else:
     print "not found"
